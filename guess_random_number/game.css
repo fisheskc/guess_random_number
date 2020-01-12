@@ -1,0 +1,75 @@
+
+h2 {
+    text-align: center;
+    color: green;
+}
+
+button {
+    position: relative;
+    padding: 2px;
+    font-size: 1em;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    background: green;
+    color: white;
+    margin: 10px 7px;
+    width: 90px;
+
+}
+
+.game {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin: 30px 30px;
+}
+
+.right-container {
+  float: right;
+  width: 45%;
+  height: 100vh;
+}
+
+.left-container {
+  float: left;
+  width: 45%;
+  height: 100vh;
+}
+
+
+
+.buttons {
+  position: relative;
+  margin-top: 37vh;
+  margin-left: 6%;
+  text-align: center;
+}
+
+
+.GuessButton {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+    text-align: center;
+
+}
+
+.input-guess {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 30px 30px;
+  position: relative;
+  text-align: center;
+  padding:15px;
+  border: 2mm solid green;
+
+}
+
+.custom-max-min {
+  text-align: center;
+}
+
+
